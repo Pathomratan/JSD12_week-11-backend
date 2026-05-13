@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Pathomrat Anusonpornpherm",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js" // เขียนให้สามารถใช้ npm run dev ได้เลย แทนการใช้ node server.js //
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
