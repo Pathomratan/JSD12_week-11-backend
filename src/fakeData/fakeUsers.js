@@ -16,4 +16,5 @@ export const users = [
         username: "Mane", 
         email: "Mane@example.com", 
         password: "pass789"
-    }]
+    },
+];
