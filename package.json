@@ -7,9 +7,10 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "dev": "node --watch src/server.js" // เขียนให้สามารถใช้ npm run dev ได้เลย แทนการใช้ node server.js //
+    "dev": "node --watch src/server.js"
   },
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^5.2.1"
   }
 }
