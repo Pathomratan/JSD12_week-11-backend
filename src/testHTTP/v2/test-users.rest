@@ -1,0 +1,26 @@
+### Read all users
+GET http://localhost:3002/api/v2/users
+
+### Create a new user
+POST http://localhost:3002/api/v2/users
+Content-Type: application/json
+
+{
+    "username": "Charlie",
+    "role": "admin",
+    "email": "charlie5@example.com",
+    "password": "pass123890"
+}
+
+### Update a user
+PUT http://localhost:3002/api/v2/users/1
+Content-Type: application/json
+
+{
+    "username": "Moji2",
+    "email": "Moji@example.com",
+    "password": "pass456"
+}
+
+### Delete a user
+DELETE  http://localhost:3002/api/v2/users/1

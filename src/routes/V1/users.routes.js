@@ -46,5 +46,6 @@ if(!username || !email || !password){
   res.status(200).json(user);
 });
 
-// app.delete();
+// router.delete("/:id", (req, res) => {
+
 
